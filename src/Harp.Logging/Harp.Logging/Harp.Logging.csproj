@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BaseLogger.cs" />
-    <Compile Include="Configurations\LoggerDependencyConfigurations.cs" />
+    <Compile Include="DependencyConfigurations\LoggerDependencyConfigurations.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="ILogger.cs" />
     <Compile Include="ILoggerProvider.cs" />

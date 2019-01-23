@@ -2,14 +2,14 @@
 using Harp.Dependencies.Configurations;
 using Harp.Logging.Loggers;
 
-namespace Harp.Logging.Configurations
+namespace Harp.Logging.DependencyConfigurations
 {
     public class LoggerDependencyConfigurations : IDependencyConfiguration
     {
         public void Configure()
         {
-            RegisterLogger();
-            RegisterProvider();
+            this.RegisterLogger();
+            this.RegisterProvider();
         }
 
         protected virtual void RegisterLogger()

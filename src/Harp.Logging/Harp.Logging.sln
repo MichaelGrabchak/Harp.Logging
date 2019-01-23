@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harp.Logging", "Harp.Logging\Harp.Logging.csproj", "{2EA1DF4C-AF1E-4E48-AF52-9ABD48F3BD32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harp.Logging.NLog", "Harp.Logging.NLog\Harp.Logging.NLog.csproj", "{BCE017A4-2ADA-45DB-B87C-442955B72FC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EA1DF4C-AF1E-4E48-AF52-9ABD48F3BD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA1DF4C-AF1E-4E48-AF52-9ABD48F3BD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA1DF4C-AF1E-4E48-AF52-9ABD48F3BD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA1DF4C-AF1E-4E48-AF52-9ABD48F3BD32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE017A4-2ADA-45DB-B87C-442955B72FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE017A4-2ADA-45DB-B87C-442955B72FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE017A4-2ADA-45DB-B87C-442955B72FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE017A4-2ADA-45DB-B87C-442955B72FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F64F4ACA-36B3-4ABA-B8D1-94A700085D9F}
+	EndGlobalSection
+EndGlobal
